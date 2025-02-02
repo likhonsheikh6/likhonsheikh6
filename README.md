@@ -13,20 +13,24 @@
   <a href="https://github.com/likhonsheikh6?tab=followers">
     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/likhonsheikh6?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
 </p>
-[![Metrics](https://github.com/likhonsheikh54/likhonsheikh54/blob/main/dist/metrics.svg)](https://github.com/likhonsheikh54/likhonsheikh54)
+
+### 📊 Metrics & Stats
+
+<p align="center">
+  <img src="https://github.com/likhonsheikh54/likhonsheikh54/blob/main/dist/metrics.svg" width="400">
+</p>
+
+<p align="center">
+  <img width="400" src="https://github-readme-stats.vercel.app/api?username=likhonsheikh6&count_private=true&show_icons=true&theme=react">
+  <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=likhonsheikh6&theme=react">
+</p>
+
 ### 🛠️ My Favorite Tools
 
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,js,html,css,react,nodejs,django,mysql,mongodb,linux,git" />
   </a>
-</p>
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img width="400" src="https://github-readme-stats.vercel.app/api?username=likhonsheikh6&count_private=true&show_icons=true&theme=react">
-  <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=likhonsheikh6&theme=react">
 </p>
 
 <p align="center">
