@@ -13,7 +13,7 @@
   <a href="https://github.com/likhonsheikh6?tab=followers">
     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/likhonsheikh6?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
 </p>
-
+[![Metrics](https://github.com/likhonsheikh54/likhonsheikh54/blob/main/dist/metrics.svg)](https://github.com/likhonsheikh54/likhonsheikh54)
 ### 🛠️ My Favorite Tools
 
 <p align="center">
