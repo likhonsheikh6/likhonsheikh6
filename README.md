@@ -42,20 +42,6 @@
   </a>
 </p>
 
----
-
-### 🏆 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/sheikh-developer/example-repo">
-    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=sheikh-developer&repo=example-repo&theme=react&hide_border=true">
-  </a>
-  <a href="https://github.com/sheikh-developer/example-repo2">
-    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=sheikh-developer&repo=example-repo2&theme=react&hide_border=true">
-  </a>
-</p>
-
----
 
 ### 🤝 Connect with Me
 
