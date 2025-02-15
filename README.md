@@ -1,64 +1,118 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-stack+Developer;Open+Source+Enthusiast;Always+learning+new+things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22">
-</p>
+<div align="center">
+  <img src="header-banner.svg" alt="Likhon Sheikh - Software Architect & Developer" width="100%" />
+</div>
 
-<p align="center">
-  <a href="https://github.com/sheikh-developer?tab=repositories&sort=stargazers">
-    <img alt="Total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/sheikh-developer?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
-  </a>
-  <a href="https://github.com/sheikh-developer?tab=followers">
-    <img alt="Followers" title="Follow me on GitHub" src="https://custom-icon-badges.demolab.com/github/followers/sheikh-developer?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
-  </a>
-</p>
+## 👋 About Me
+
+<div align="center">
+  <img src="tech-orbital.svg" alt="Technology Stack" width="60%" />
+</div>
+
+I'm a Software Architect & Full Stack Developer passionate about creating innovative solutions and building scalable applications. With expertise in modern web technologies and cloud architecture, I focus on delivering high-quality, performance-driven solutions.
+
+### 🚀 What I Do
+
+- 🌟 Architect and develop scalable web applications
+- 💡 Design efficient database solutions
+- 🛠️ Build robust backend systems
+- 🎨 Create intuitive user interfaces
+- 🔄 Implement CI/CD pipelines
+- 📊 Optimize system performance
+
+## 💻 Technology Stack
+
+```javascript
+const techStack = {
+  frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'],
+  backend: ['Node.js', 'Express', 'Python', 'Django'],
+  database: ['MongoDB', 'PostgreSQL', 'Redis'],
+  cloud: ['AWS', 'Docker', 'Kubernetes'],
+  tools: ['Git', 'GitHub Actions', 'Jenkins', 'Webpack']
+};
+```
+
+## 📊 GitHub Statistics
+
+<div align="center">
+  <img src="stats-card.svg" alt="GitHub Statistics" width="100%" />
+</div>
+
+## 🎯 Featured Projects
+
+<div align="center">
+  <img src="projects-showcase.svg" alt="Project Showcase" width="100%" />
+</div>
+
+### Recent Work
+
+1. **Project Vortex**
+   - Full-stack application with real-time data processing
+   - Technologies: React, Node.js, WebSocket, AWS
+   - [View Project →](https://github.com/sheikh-developer/vortex)
+
+2. **VΔOS Platform**
+   - Cloud-native distributed system
+   - Technologies: Kubernetes, Docker, Microservices
+   - [View Project →](https://github.com/sheikh-developer/vaos)
+
+3. **Data Analytics Dashboard**
+   - Interactive data visualization platform
+   - Technologies: D3.js, Python, PostgreSQL
+   - [View Project →](https://github.com/sheikh-developer/analytics)
+
+## 📫 Let's Connect
+
+<div align="center">
+  <img src="contact-badge.svg" alt="Contact Information" width="200px" />
+</div>
+
+- 💼 [LinkedIn](https://linkedin.com/in/sheikhdeveloper)
+- 🐦 [Twitter](https://twitter.com/sheikhdeveloper)
+- 🌐 [Personal Website](https://sheikhdeveloper.com)
+- 📧 [Email](mailto:contact@sheikhdeveloper.com)
+
+## 🌟 Professional Experience
+
+- Senior Software Architect @ Tech Solutions Inc
+- Lead Developer @ Innovation Labs
+- Full Stack Developer @ Digital Ventures
+
+## 📚 Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+- [Building Scalable Microservices with Kubernetes](https://dev.to/sheikhdeveloper)
+- [React Performance Optimization Techniques](https://dev.to/sheikhdeveloper)
+- [Modern Database Design Patterns](https://dev.to/sheikhdeveloper)
+<!-- BLOG-POST-LIST:END -->
+
+## 🎓 Certifications
+
+- AWS Certified Solutions Architect
+- Google Cloud Professional Developer
+- MongoDB Certified Developer
+- React Certification
+
+## 📈 Weekly Development Breakdown
+
+```text
+JavaScript   12 hrs 30 mins  ███████████░░  70%
+Python       3 hrs 45 mins   ████░░░░░░░░░  21%
+Docker       1 hr 15 mins    ██░░░░░░░░░░░   7%
+Other        20 mins         ░░░░░░░░░░░░░   2%
+```
+
+<div align="center">
+  <img src="copyright-badge.svg" alt="Copyright" width="200px" />
+</div>
 
 ---
 
-### 📊 GitHub Metrics
+<details>
+<summary>📝 Note</summary>
+This profile is actively maintained and updated regularly. For the most recent information about my work and projects, please visit my [portfolio website](https://sheikhdeveloper.com).
+</details>
 
+<!-- Profile views counter -->
 <p align="center">
-  <img src="https://github.com/likhonsheikh54/likhonsheikh54/blob/main/dist/metrics.svg" width="800">
+  <img src="https://komarev.com/ghpvc/?username=sheikh-developer&color=blueviolet" alt="Profile views" />
 </p>
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img width="400" src="https://github-readme-stats.vercel.app/api?username=sheikh-developer&count_private=true&show_icons=true&theme=react">
-  <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=sheikh-developer&theme=react">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sheikh-developer&theme=react-dark" width="800">
-</p>
-
----
-
-### 🛠️ My Favorite Tools
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,js,html,css,react,nodejs,django,mysql,mongodb,linux,git,vscode,github,figma" />
-  </a>
-</p>
-
-
-### 🤝 Connect with Me
-
-<p align="center">
-  <a href="https://github.com/sheikh-developer">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://t.me/likhonsheikh">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
-  </a>
-  <a href="mailto:likhonsheikh6@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sheikh-developer&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views">
-</p>  
