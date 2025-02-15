@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="statsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#112240;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#233554;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes slideIn {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
+    }
+    .stat-bar { animation: slideIn 1s ease-out; }
+  </style>
+
+  <rect width="400" height="200" fill="url(#statsGrad)" rx="10"/>
+  
+  <!-- Stat Bars -->
+  <g transform="translate(20 20)">
+    <text x="0" y="20" fill="#64ffda" font-family="Arial" font-size="14">JavaScript</text>
+    <rect x="0" y="30" width="300" height="10" fill="#1a1a1a" rx="5"/>
+    <rect x="0" y="30" width="250" height="10" fill="#64ffda" rx="5" class="stat-bar"/>
+    
+    <!-- Add more stat bars here -->
+  </g>
+</svg>
