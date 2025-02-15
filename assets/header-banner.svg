@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4a4a4a;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    @keyframes gradientFlow {
+      0% { stop-color: #FF6B6B; }
+      50% { stop-color: #4ECDC4; }
+      100% { stop-color: #FF6B6B; }
+    }
+    .animate-gradient stop {
+      animation: gradientFlow 8s infinite;
+    }
+    .text-glow { filter: url(#glow); }
+  </style>
+
+  <rect width="800" height="200" fill="url(#headerGrad)"/>
+  
+  <text x="400" y="100" font-family="Arial" font-size="48" fill="#ffffff" 
+        text-anchor="middle" class="text-glow">
+    Likhon Sheikh
+  </text>
+  <text x="400" y="140" font-family="Arial" font-size="24" fill="#64ffda" 
+        text-anchor="middle" opacity="0.8">
+    Software Architect & Developer
+  </text>
+</svg>
