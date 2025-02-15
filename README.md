@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/header-banner.svg" alt="Likhon Sheikh - Software Architect & Developer" width="100%" />
-</div>
-
 ## 👋 About Me
 
 <div align="center">
