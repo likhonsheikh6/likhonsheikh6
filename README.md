@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="header-banner.svg" alt="Likhon Sheikh - Software Architect & Developer" width="100%" />
+  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/header-banner.svg" alt="Likhon Sheikh - Software Architect & Developer" width="100%" />
 </div>
 
 ## 👋 About Me
 
 <div align="center">
-  <img src="tech-orbital.svg" alt="Technology Stack" width="60%" />
+  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/tech-orbital.svg" alt="Technology Stack" width="60%" />
 </div>
 
 I'm a Software Architect & Full Stack Developer passionate about creating innovative solutions and building scalable applications. With expertise in modern web technologies and cloud architecture, I focus on delivering high-quality, performance-driven solutions.
@@ -34,13 +34,13 @@ const techStack = {
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img src="stats-card.svg" alt="GitHub Statistics" width="100%" />
+  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/stats-card.svg" alt="GitHub Statistics" width="100%" />
 </div>
 
 ## 🎯 Featured Projects
 
 <div align="center">
-  <img src="projects-showcase.svg" alt="Project Showcase" width="100%" />
+  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/projects-showcase.svg" alt="Project Showcase" width="100%" />
 </div>
 
 ### Recent Work
@@ -63,7 +63,7 @@ const techStack = {
 ## 📫 Let's Connect
 
 <div align="center">
-  <img src="contact-badge.svg" alt="Contact Information" width="200px" />
+  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/contact-badge.svg" alt="Contact Information" width="200px" />
 </div>
 
 - 💼 [LinkedIn](https://linkedin.com/in/sheikhdeveloper)
@@ -102,7 +102,7 @@ Other        20 mins         ░░░░░░░░░░░░░   2%
 ```
 
 <div align="center">
-  <img src="copyright-badge.svg" alt="Copyright" width="200px" />
+  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/copyright-badge.svg" alt="Copyright" width="200px" />
 </div>
 
 ---
