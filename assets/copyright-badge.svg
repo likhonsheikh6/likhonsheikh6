@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 30" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .copyright-text { fill: #64ffda; }
+    }
+    @media (prefers-color-scheme: light) {
+      .copyright-text { fill: #112240; }
+    }
+  </style>
+
+  <text x="100" y="20" text-anchor="middle" font-family="Arial" 
+        font-size="12" class="copyright-text">
+    © 2024 Likhon Sheikh. All rights reserved.
+  </text>
+</svg>
