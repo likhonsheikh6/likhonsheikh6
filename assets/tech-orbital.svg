@@ -1,0 +1,41 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes orbit {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes counter-orbit {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    .orbit-path { animation: orbit 20s linear infinite; }
+    .tech-item { animation: counter-orbit 20s linear infinite; }
+  </style>
+
+  <g transform="translate(300 300)">
+    <!-- Orbital Paths -->
+    <circle r="200" fill="none" stroke="#64ffda" stroke-width="1" 
+            stroke-dasharray="4,4" opacity="0.3"/>
+    <circle r="150" fill="none" stroke="#64ffda" stroke-width="1" 
+            stroke-dasharray="4,4" opacity="0.5"/>
+    <circle r="100" fill="none" stroke="#64ffda" stroke-width="1" 
+            stroke-dasharray="4,4" opacity="0.7"/>
+
+    <!-- Tech Stack Items -->
+    <g class="orbit-path">
+      <g transform="rotate(0)">
+        <circle cx="200" cy="0" r="30" fill="url(#techGrad)" stroke="#64ffda"/>
+        <text x="200" y="0" class="tech-item" text-anchor="middle" 
+              dominant-baseline="middle" fill="#ffffff" font-size="12">React</text>
+      </g>
+      <!-- Add more tech items here -->
+    </g>
+  </g>
+</svg>
