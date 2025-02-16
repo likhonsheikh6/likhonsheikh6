@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes gradientFlow {
+      0% { stop-color: #FF0080; }
+      25% { stop-color: #64ffda; }
+      50% { stop-color: #00bfff; }
+      75% { stop-color: #9d00ff; }
+      100% { stop-color: #FF0080; }
+    }
+    @keyframes matrixRain {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
+    }
+    @keyframes scanLine {
+      0% { transform: translateY(-100%); opacity: 0.5; }
+      100% { transform: translateY(200%); opacity: 0; }
+    }
+    @keyframes textGlow {
+      0% { filter: drop-shadow(0 0 2px #64ffda); }
+      50% { filter: drop-shadow(0 0 8px #64ffda); }
+      100% { filter: drop-shadow(0 0 2px #64ffda); }
+    }
+    @keyframes borderFlow {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .matrix-bg { animation: matrixRain 20s linear infinite; }
+    .scan-effect { animation: scanLine 2s linear infinite; }
+    .glow-text { animation: textGlow 3s ease-in-out infinite; }
+    .border-animate { 
+      stroke-dasharray: 1000;
+      animation: borderFlow 10s linear infinite;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" class="gradient-animate">
+        <animate attributeName="stop-color" 
+                 values="#FF0080;#64ffda;#00bfff;#9d00ff;#FF0080"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" class="gradient-animate">
+        <animate attributeName="stop-color" 
+                 values="#64ffda;#00bfff;#9d00ff;#FF0080;#64ffda"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <pattern id="matrixPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <text x="0" y="20" fill="#64ffda" opacity="0.1" font-family="monospace" 
+            font-size="20" class="matrix-bg">01</text>
+      <text x="25" y="40" fill="#64ffda" opacity="0.1" font-family="monospace" 
+            font-size="20" class="matrix-bg">10</text>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="#0a192f"/>
+  <rect width="800" height="200" fill="url(#matrixPattern)"/>
+  
+  <!-- Animated border -->
+  <rect x="10" y="10" width="780" height="180" rx="15" 
+        fill="none" stroke="url(#titleGrad)" stroke-width="2" 
+        class="border-animate"/>
+  
+  <!-- Scan line -->
+  <rect class="scan-effect" x="0" y="0" width="800" height="4" 
+        fill="#64ffda" opacity="0.5"/>
+  
+  <!-- Main content -->
+  <g class="glow-text">
+    <text x="400" y="80" text-anchor="middle" 
+          font-family="Arial Black" font-size="40" fill="url(#titleGrad)">
+      LIKHON SHEIKH
+    </text>
+    <text x="400" y="120" text-anchor="middle" 
+          font-family="Arial" font-size="20" fill="#64ffda">
+      System Architect &amp; Blockchain Developer
+    </text>
+  </g>
+  
+  <!-- Decorative circuit lines -->
+  <path d="M50,180 L50,150 L100,150 L100,100" 
+        stroke="#64ffda" fill="none" stroke-width="1" opacity="0.5"/>
+  <path d="M750,180 L750,150 L700,150 L700,100" 
+        stroke="#64ffda" fill="none" stroke-width="1" opacity="0.5"/>
+</svg>
