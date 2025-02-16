@@ -1,0 +1,116 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes rainbowShift {
+      0% { stop-color: #FF0080; }
+      20% { stop-color: #FF00FF; }
+      40% { stop-color: #8000FF; }
+      60% { stop-color: #0080FF; }
+      80% { stop-color: #00FFB0; }
+      100% { stop-color: #FF0080; }
+    }
+
+    @keyframes neonGlow {
+      0%, 100% { filter: drop-shadow(0 0 3px #FF00FF) drop-shadow(0 0 6px #00FFFF); }
+      50% { filter: drop-shadow(0 0 10px #FF00FF) drop-shadow(0 0 15px #00FFFF); }
+    }
+
+    @keyframes floatingText {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+
+    @keyframes rotateHue {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+
+    @keyframes scanLines {
+      0% { transform: translateY(0) scaleY(0.5); opacity: 0.2; }
+      50% { transform: translateY(200px) scaleY(1); opacity: 0.6; }
+      100% { transform: translateY(0) scaleY(0.5); opacity: 0.2; }
+    }
+
+    @keyframes matrixRain {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
+    }
+
+    .neon-text {
+      animation: neonGlow 2s ease-in-out infinite, floatingText 3s ease-in-out infinite;
+    }
+
+    .scan-effect {
+      animation: scanLines 5s linear infinite;
+    }
+
+    .matrix-rain {
+      animation: matrixRain 6s linear infinite;
+    }
+
+    .gradient-animate {
+      animation: rainbowShift 8s linear infinite;
+    }
+
+    .hue-rotate {
+      animation: rotateHue 12s linear infinite;
+    }
+  </style>
+
+  <defs>
+    <!-- Neon Gradient -->
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop class="gradient-animate" offset="0%" />
+      <stop class="gradient-animate" offset="50%" style="animation-delay: -4s"/>
+      <stop class="gradient-animate" offset="100%" style="animation-delay: -8s"/>
+    </linearGradient>
+
+    <!-- Matrix-like pattern -->
+    <pattern id="matrixPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <text x="0" y="10" fill="#00FF80" opacity="0.2" font-family="monospace" font-size="10" class="matrix-rain">
+        010101
+      </text>
+    </pattern>
+  </defs>
+
+  <!-- Main card -->
+  <rect x="10" y="30" width="380" height="160" rx="15"
+        fill="url(#techGradient)"
+        stroke="url(#techGradient)"
+        stroke-width="2"
+        class="hue-rotate"/>
+
+  <!-- Matrix overlay -->
+  <rect x="10" y="30" width="380" height="160" rx="15"
+        fill="url(#matrixPattern)" opacity="0.1"/>
+
+  <!-- Scanning Effect -->
+  <g class="scan-effect">
+    <rect x="10" y="0" width="380" height="4" fill="#FF00FF" opacity="0.3"/>
+    <rect x="10" y="2" width="380" height="2" fill="#00FFFF" opacity="0.5"/>
+  </g>
+
+  <!-- Header Text -->
+  <text x="30" y="70" font-family="Arial Black" font-size="18" fill="#FFFFFF" class="neon-text">
+    LIKHON SHEIKH
+  </text>
+
+  <!-- Profile Details -->
+  <g font-family="Monaco" font-size="14" fill="#FFFFFF">
+    <text x="30" y="100" class="neon-text" style="animation-delay: -1s">
+      ⚡ SYSTEM ARCHITECT
+    </text>
+    <text x="30" y="130" class="neon-text" style="animation-delay: -2s">
+      🌍 BANGLADESH
+    </text>
+    <text x="30" y="160" class="neon-text" style="animation-delay: -3s">
+      🚀 PROJECTS: REKT-BROWSER, LYTHON
+    </text>
+  </g>
+
+  <!-- Animated Tech Icons -->
+  <g transform="translate(300, 80)" class="hue-rotate">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#FF00FF" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#00FFFF" stroke-width="2"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#FF80FF" stroke-width="2"/>
+  </g>
+</svg>
