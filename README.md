@@ -7,6 +7,6 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/profile.svg" alt="GitHub Statistics" width="100%" />
+  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/profile.svg" alt="GitHub Statistics" width="100%" />
 </div>
 
