@@ -1,0 +1,51 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes holoShimmer {
+      0% { opacity: 0.3; transform: translateX(-100%); }
+      100% { opacity: 0; transform: translateX(100%); }
+    }
+    @keyframes textGlow {
+      0% { filter: drop-shadow(0 0 2px #00ffff); }
+      50% { filter: drop-shadow(0 0 8px #00ffff); }
+      100% { filter: drop-shadow(0 0 2px #00ffff); }
+    }
+    @keyframes holoPulse {
+      0% { opacity: 0.5; }
+      50% { opacity: 1; }
+      100% { opacity: 0.5; }
+    }
+    .shimmer { animation: holoShimmer 3s linear infinite; }
+    .glow-text { animation: textGlow 4s infinite; }
+    .holo-element { animation: holoPulse 2s infinite; }
+  </style>
+
+  <defs>
+    <linearGradient id="holoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.2"/>
+      <stop offset="50%" style="stop-color:#00ff9d;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#00ffff;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="10" y="10" width="380" height="180" rx="10" 
+        fill="#1a1f28" stroke="url(#holoGradient)" stroke-width="2"/>
+
+  <!-- Holographic elements -->
+  <rect class="shimmer" x="0" y="0" width="100" height="200" 
+        fill="url(#holoGradient)"/>
+
+  <!-- Profile content -->
+  <g class="glow-text">
+    <text x="30" y="50" font-family="Arial Black" font-size="20" fill="#00ffff">
+      SYSTEM ARCHITECT
+    </text>
+    <text x="30" y="80" font-family="Arial" font-size="14" fill="#00ff9d">
+      Blockchain · AI · Cloud
+    </text>
+  </g>
+
+  <!-- Holographic seal -->
+  <circle cx="320" cy="50" r="30" class="holo-element" 
+          fill="none" stroke="#00ffff" stroke-width="2"/>
+</svg>
