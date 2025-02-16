@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes slideIn {
+      from { transform: translateX(-20px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes borderFlow {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .contact-info {
+      animation: slideIn 1s ease-out forwards;
+    }
+    .border-animate {
+      stroke-dasharray: 1000;
+      animation: borderFlow 10s linear infinite;
+    }
+  </style>
+  
+  <!-- Background -->
+  <rect width="800" height="100" fill="#0a192f"/>
+  
+  <!-- Decorative border -->
+  <rect x="10" y="10" width="780" height="80" fill="none" 
+        stroke="#64ffda" stroke-width="2" rx="5" class="border-animate"/>
+  
+  <!-- Contact information -->
+  <g class="contact-info" style="animation-delay: 0.2s">
+    <text x="50" y="45" font-family="Arial" font-size="16" fill="#64ffda">
+      📧 likhonsheikh6@gmail.com
+    </text>
+  </g>
+  <g class="contact-info" style="animation-delay: 0.4s">
+    <text x="50" y="70" font-family="Arial" font-size="16" fill="#64ffda">
+      🌐 likhonsheikh.com
+    </text>
+  </g>
+</svg>
