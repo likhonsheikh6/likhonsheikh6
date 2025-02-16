@@ -1,0 +1,118 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes rainbowShift {
+      0% { stop-color: #FF0080; }
+      20% { stop-color: #FF00FF; }
+      40% { stop-color: #8000FF; }
+      60% { stop-color: #0080FF; }
+      80% { stop-color: #00FFB0; }
+      100% { stop-color: #FF0080; }
+    }
+    
+    @keyframes neonPulse {
+      0% { filter: drop-shadow(0 0 2px #FF00FF) drop-shadow(0 0 4px #0080FF); }
+      50% { filter: drop-shadow(0 0 8px #FF00FF) drop-shadow(0 0 12px #0080FF); }
+      100% { filter: drop-shadow(0 0 2px #FF00FF) drop-shadow(0 0 4px #0080FF); }
+    }
+    
+    @keyframes floatingText {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0px); }
+    }
+    
+    @keyframes rotateHue {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+    
+    @keyframes scanLines {
+      0% { transform: translateY(0) scaleY(0.5); opacity: 0.2; }
+      50% { transform: translateY(200px) scaleY(1); opacity: 0.8; }
+      100% { transform: translateY(0) scaleY(0.5); opacity: 0.2; }
+    }
+    
+    @keyframes matrixRain {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
+    }
+
+    .rainbow-text {
+      animation: neonPulse 3s ease-in-out infinite, 
+                floatingText 4s ease-in-out infinite;
+    }
+    
+    .scan-effect {
+      animation: scanLines 4s linear infinite;
+    }
+    
+    .matrix-rain {
+      animation: matrixRain 10s linear infinite;
+    }
+    
+    .gradient-animate {
+      animation: rainbowShift 10s linear infinite;
+    }
+    
+    .hue-rotate {
+      animation: rotateHue 15s linear infinite;
+    }
+  </style>
+  
+  <defs>
+    <!-- Vibrant gradient background -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop class="gradient-animate" offset="0%" />
+      <stop class="gradient-animate" offset="50%" style="animation-delay: -5s"/>
+      <stop class="gradient-animate" offset="100%" style="animation-delay: -10s"/>
+    </linearGradient>
+    
+    <!-- Matrix-like pattern -->
+    <pattern id="matrixPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <text x="0" y="10" fill="#00FF80" opacity="0.3" font-family="monospace" font-size="10" class="matrix-rain">
+        01010111
+      </text>
+    </pattern>
+  </defs>
+  
+  <!-- Main card with gradient -->
+  <rect x="10" y="30" width="380" height="160" rx="15" 
+        fill="url(#cardGrad)" 
+        stroke="url(#cardGrad)" 
+        stroke-width="2"
+        class="hue-rotate"/>
+  
+  <!-- Matrix overlay -->
+  <rect x="10" y="30" width="380" height="160" rx="15" 
+        fill="url(#matrixPattern)" 
+        opacity="0.1"/>
+  
+  <!-- Scanning effects -->
+  <g class="scan-effect">
+    <rect x="10" y="0" width="380" height="4" fill="#FF00FF" opacity="0.3"/>
+    <rect x="10" y="2" width="380" height="2" fill="#00FFFF" opacity="0.5"/>
+  </g>
+  
+  <!-- Header -->
+  <text x="30" y="70" font-family="Arial Black" font-size="18" fill="#FFFFFF" class="rainbow-text">
+    LIKHON SHEIKH
+  </text>
+  
+  <!-- Profile content with individual floating animations -->
+  <g font-family="Monaco" font-size="14" fill="#FFFFFF">
+    <text x="30" y="100" class="rainbow-text" style="animation-delay: -1s">
+      ⚡ SYSTEM ARCHITECT
+    </text>
+    <text x="30" y="130" class="rainbow-text" style="animation-delay: -2s">
+      🌍 AUSTIN, TX
+    </text>
+    <text x="30" y="160" class="rainbow-text" style="animation-delay: -3s">
+      🚀 PROJECTS: VORTEX, VΔOS
+    </text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="340" cy="70" r="25" fill="none" stroke="#FF00FF" stroke-width="2" class="hue-rotate"/>
+  <circle cx="340" cy="70" r="20" fill="none" stroke="#00FFFF" stroke-width="2" class="hue-rotate"/>
+  <circle cx="340" cy="70" r="15" fill="none" stroke="#FF80FF" stroke-width="2" class="hue-rotate"/>
+</svg>
