@@ -10,10 +10,3 @@
   <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/stats-card.svg" alt="GitHub Statistics" width="100%" />
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/projects-showcase.svg" alt="Project Showcase" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/assets/contact-badge.svg" alt="Contact Information" width="200px" />
-</div>
