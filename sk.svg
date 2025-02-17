@@ -1,0 +1,49 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for filters and clip paths -->
+  <defs>
+    <!-- Drop shadow filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Circular clip path -->
+    <clipPath id="circleClip">
+      <circle cx="200" cy="200" r="120"/>
+    </clipPath>
+    
+    <!-- Rounded square clip path with significantly rounded corners -->
+    <clipPath id="roundedSquareClip">
+      <rect x="60" y="60" width="280" height="280" rx="70" ry="70"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Background design element - subtle gradient -->
+  <rect x="0" y="0" width="400" height="400" fill="url(#bgGradient)"/>
+  <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8f9fa"/>
+    <stop offset="100%" stop-color="#e9ecef"/>
+  </linearGradient>
+  
+  <!-- Decorative circle in background -->
+  <circle cx="320" cy="80" r="120" fill="#3498db" opacity="0.05"/>
+  
+  <!-- First, show image in rounded square -->
+  <image href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qg1bAEuQklg8QgwK5c0gnlxYXGLGV6KzWA0zRaR7RPAOUEHBFGdNSK_8&s=10"
+         x="60" y="60" width="280" height="280"
+         clip-path="url(#roundedSquareClip)"
+         filter="url(#dropShadow)"/>
+  
+  <!-- Circular overlay with image -->
+  <image href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qg1bAEuQklg8QgwK5c0gnlxYXGLGV6KzWA0zRaR7RPAOUEHBFGdNSK_8&s=10"
+         x="80" y="80" width="240" height="240"
+         clip-path="url(#circleClip)"
+         filter="url(#dropShadow)"/>
+  
+  <!-- Decorative ring around the circular image -->
+  <circle cx="200" cy="200" r="122" fill="none" stroke="#ffffff" stroke-width="4" filter="url(#dropShadow)"/>
+  
+  <!-- Modern accent elements -->
+  <circle cx="80" cy="320" r="15" fill="#3498db" opacity="0.7"/>
+  <circle cx="110" cy="320" r="10" fill="#2ecc71" opacity="0.7"/>
+  <circle cx="135" cy="320" r="7" fill="#9b59b6" opacity="0.7"/>
+</svg>
