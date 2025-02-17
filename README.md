@@ -6,9 +6,7 @@
   <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/who.svg" alt="Who I Am" width="100%" />
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/skills.svg" alt="Skills & Tech Stack" width="100%" />
-</div>
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/sheikh-developer/sheikh-developer/main/orbit.svg" alt="Tech Stack Orbit" width="100%" height="300" style="object-fit: contain;">
